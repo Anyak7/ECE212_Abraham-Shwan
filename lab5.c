@@ -3,51 +3,52 @@
 #include "ece212.h"
 
 
-int main() { // The entry-point of your C Program.
-    
-    // Call the ece212 setup command to connect to the LafBot pins
-    ece212_setup();
-    ece212_lafbot_setup();
-
-    int x = 1;
-    int speed = 16;
-    while (1) {  // Repeats contents forever!
-       writeLEDs(x);  
-       delayms(500);
-       x *=2;
-       if (x == 16){
-           x =1;
-       }
-        RFORWARD = 0x8000;
-       LFORWARD = -0x8000;
-       RBACK = 0;
-       LBACK = 0;
-       delayms(500);
-       
-       RFORWARD = 0;
-       LFORWARD = 0;
-       delayms(1000);
-       
-       RFORWARD = 0;
-       LFORWARD = 0;
-       RBACK = 0x8000;
-       LBACK = -0x8000;
-       delayms(500);
-       
-       RBACK = 0;
-       LBACK = 0;
-       delayms(1000);
-       
-      
-    }
-
-
-    
-    
-    
-
+//int main() { // The entry-point of your C Program.
+////    
+////    // Call the ece212 setup command to connect to the LafBot pins
+////    ece212_setup();
+////    ece212_lafbot_setup();
+////
+////    int x = 1;
+////    int speed = 16;
+////    while (1) {  // Repeats contents forever!
+////       writeLEDs(x);  
+////       delayms(500);
+////       x *=2;
+////       if (x == 16){
+////           x =1;
+////       }
+////        RFORWARD = 0x8000;
+////       LFORWARD = -0x8000;
+////       RBACK = 0;
+////       LBACK = 0;
+////       delayms(500);
+////       
+////       RFORWARD = 0;
+////       LFORWARD = 0;
+////       delayms(1000);
+////       
+////       RFORWARD = 0;
+////       LFORWARD = 0;
+////       RBACK = 0x8000;
+////       LBACK = -0x8000;
+////       delayms(500);
+////       
+////       RBACK = 0;
+////       LBACK = 0;
+////       delayms(1000);
+//       
+////      
+////    }
+//      return 0;
+//}
+//
+//    
+//    
+//    
+//
 int main() {
-
+    ece212_setup();
     ece212_lafbot_setup();
 
     int left;
@@ -56,7 +57,7 @@ int main() {
     int leftSpeed;
     int rightSpeed;
 
-    int threshold = 300;
+    int threshold = 375;
 
     while (1) {
 
@@ -66,29 +67,29 @@ int main() {
 
         if (left < threshold && right < threshold) {
 
-            leftSpeed = 0x6000;
-            rightSpeed = 0x6000;
+            leftSpeed = 0xFFFF;
+            rightSpeed = 0xFFFF;
         }
 
  
         else if (left >= threshold && right < threshold) {
 
-            leftSpeed = 0x3000;
-            rightSpeed = 0x7000;
+            leftSpeed = 0x1000;
+            rightSpeed = 0xFFFF;
         }
 
     
         else if (left < threshold && right >= threshold) {
 
-            leftSpeed = 0x7000;
-            rightSpeed = 0x3000;
+            leftSpeed = 0xFFFF;
+            rightSpeed = 0x1000;
         }
 
   
         else {
 
-            leftSpeed = 0x4000;
-            rightSpeed = 0x4000;
+            leftSpeed = 0xC000;
+            rightSpeed = 0xC000;
         }
 
         LBACK = 0;
@@ -103,8 +104,6 @@ int main() {
     return 0;
 }
 
-    return 0;
-}
 
 
 
