@@ -14,7 +14,7 @@ loop:
     add $0, $0, $0
     
     li $t7, 'A'
-    slt $t3, $t7, $t2
+    slt $t3, $t2, $t7
     bne $t3, $zero, next
     add $0, $0, $0
     

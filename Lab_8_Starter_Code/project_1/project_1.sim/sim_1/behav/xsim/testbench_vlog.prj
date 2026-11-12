@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../mips_decls_p.sv" \
+"../../../../../memory/dmem.sv" \
+"../../../../../memory/imem.sv" \
+"../../../../../top.sv" \
+"../../../../../testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

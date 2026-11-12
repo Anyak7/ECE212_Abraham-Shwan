@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/haos/Desktop/Lab_8_Starter_Code/control/aludec.sv,1794514547,systemVerilog,,C:/Users/haos/Desktop/Lab_8_Starter_Code/controller.sv,,aludec,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/control/maindec.sv,1794514547,systemVerilog,,C:/Users/haos/Desktop/Lab_8_Starter_Code/project_1/project_1.srcs/sources_1/new/controller_testbench.sv,,maindec,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/controller.sv,1794517203,systemVerilog,,C:/Users/haos/Desktop/Lab_8_Starter_Code/control/maindec.sv,,controller,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/memory/dmem.sv,1794509430,systemVerilog,,C:/Users/haos/Desktop/Lab_8_Starter_Code/memory/imem.sv,,dmem,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/memory/imem.sv,1794509430,systemVerilog,,C:/Users/haos/Desktop/Lab_8_Starter_Code/top.sv,,imem,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/mips_decls_p.sv,1794509430,systemVerilog,C:/Users/haos/Desktop/Lab_8_Starter_Code/control/aludec.sv;C:/Users/haos/Desktop/Lab_8_Starter_Code/control/maindec.sv;C:/Users/haos/Desktop/Lab_8_Starter_Code/controller.sv;C:/Users/haos/Desktop/Lab_8_Starter_Code/project_1/project_1.srcs/sources_1/new/controller_testbench.sv,C:/Users/haos/Desktop/Lab_8_Starter_Code/control/aludec.sv,,mips_decls_p,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/project_1/project_1.srcs/sources_1/new/controller_testbench.sv,1794517010,systemVerilog,,,,controller_testbench,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/testbench.sv,1794509430,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/haos/Desktop/Lab_8_Starter_Code/top.sv,1794509430,systemVerilog,,C:/Users/haos/Desktop/Lab_8_Starter_Code/testbench.sv,,top,,uvm,,,,,,
