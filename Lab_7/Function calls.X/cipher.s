@@ -3,12 +3,13 @@
  ####Begin the .text segment of the assembly file
     .text
 main:
-    la $a0, msg1
+    la $s7, msg1
+    addi $a0, $s7, 0
     jal capitalize
     add $0, $0, $0
     addi $t0, $zero, 0
 loop:
-    add $t1, $a0, $t0
+    add $t1, $s7, $t0
     lbu $t2, 0($t1)
     beq $t2, $zero, end
     add $0, $0, $0
@@ -82,4 +83,4 @@ end2:
     
     .data
 msg1:
-    .asciz "Trick or Treat"
+    .asciz "Trick Or Treat"
