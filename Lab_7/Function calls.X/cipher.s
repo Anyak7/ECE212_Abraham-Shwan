@@ -81,4 +81,5 @@ end2:
     add $0, $0, $0
     
     .data
-msg1
+msg1:
+    .asciz "Trick or Treat"
