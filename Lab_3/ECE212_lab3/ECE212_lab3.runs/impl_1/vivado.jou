@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Sep 17 16:13:44 2026
+# Process ID: 16308
+# Current directory: C:/Users/haos/Documents/ECE212_Abraham/Lab_3/ECE212_lab3/ECE212_lab3.runs/impl_1
+# Command line: vivado.exe -log lab03_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab03_top.tcl -notrace
+# Log file: C:/Users/haos/Documents/ECE212_Abraham/Lab_3/ECE212_lab3/ECE212_lab3.runs/impl_1/lab03_top.vdi
+# Journal file: C:/Users/haos/Documents/ECE212_Abraham/Lab_3/ECE212_lab3/ECE212_lab3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lab03_top.tcl -notrace

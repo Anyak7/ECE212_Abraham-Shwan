@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../Lab 3 Starter Code/adv_seven_seg_n.sv" \
+"../../../../../Lab 3 Starter Code/clock_display.sv" \
+"../../../../../Lab 3 Starter Code/clock_enable.sv" \
+"../../../../../Lab 3 Starter Code/dbl_dabble_ext.sv" \
+"../../../../../Lab 3 Starter Code/dig_clock.sv" \
+"../../../../../Lab 3 Starter Code/disp_mux_seven_seg.sv" \
+"../../../../../Lab 3 Starter Code/clock.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
