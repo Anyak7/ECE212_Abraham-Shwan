@@ -1,0 +1,4 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Simulation succeeded
+$stop called at time : 170 ns : File "C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/testbench.sv" Line 44

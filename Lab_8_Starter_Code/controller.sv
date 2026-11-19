@@ -24,7 +24,7 @@ module controller(
     output logic [2:0] alucontrol
     );
     logic [1:0] aluop;
-    maindec D0 (.opcode(opcode), .memtoreg(memtoreg), .memwrite(memwrite), .branch(branch), .alusrc(alusrc),.regdst(regdst), .regwrite(rewrite), .jump(jump), .aluop(aluop));
+    maindec D0 (.opcode(opcode), .memtoreg(memtoreg), .memwrite(memwrite), .branch(branch), .alusrc(alusrc),.regdst(regdst), .regwrite(regwrite), .jump(jump), .aluop(aluop));
     aludec D1(.funct(funct), .aluop(aluop),.alucontrol(alucontrol));
 
     assign pcsrc = branch & zero;

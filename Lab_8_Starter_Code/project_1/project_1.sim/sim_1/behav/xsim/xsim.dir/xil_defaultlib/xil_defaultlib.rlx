@@ -3,8 +3,8 @@
 Nov 18 2020
 09:47:47
 C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/control/aludec.sv,1795112845,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/controller.sv,,aludec,,uvm,,,,,,
-C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/control/maindec.sv,1795112845,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/datapath/mux2.sv,,maindec,,uvm,,,,,,
-C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/controller.sv,1795112845,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/memory/dmem.sv,,controller,,uvm,,,,,,
+C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/control/maindec.sv,1795119350,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/datapath/mux2.sv,,maindec,,uvm,,,,,,
+C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/controller.sv,1795119628,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/memory/dmem.sv,,controller,,uvm,,,,,,
 C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/datapath/adder.sv,1795112845,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/datapath/alu.sv,,adder,,uvm,,,,,,
 C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/datapath/alu.sv,1795112845,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/mips_decls_p.sv,,alu,,uvm,,,,,,
 C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/datapath/flopr.sv,1795112845,systemVerilog,,C:/Users/anyaka/Documents/ECE212_Abraham-Shwan/Lab_8_Starter_Code/memory/imem.sv,,flopr,,uvm,,,,,,
